@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/head.html', {
+"title":"Eco-Puce"
+})
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+  <!-- <body> -->
+  @@include('html/header.html', { })
+
+  <section class="first" ">
+    <div class="container main-content id="sakums">
+      <H1 class="translate" data-speed="0.1">Čau vecā miesa!</H1>
+      <h5 class="translate" data-speed="0.1">
+        Ja Tev vajag izgatavot jaunas mēbeles Tavam jaunajam mājoklim, ja Tev vajag salabot jau esošās mēbeles
+        vai restaurēt no vecvecākiem mantotās un muzeja eksponātu cienīgās mēbeles, vai arī Tev vajag
+        izgatavot no koka, kaut vai karoti - tad tu esi īstajā vietā - mēs to varam un daram!
+      </h5>
+      <a class="nav-link" href="#contacts"><button type="button"
+          class="btn btn-primary contactButton px-5">Sazinies ar mums!</button></a>
+    </div>
+  </section>
+
+  <div class="container my-4 py-5" id="about">
+    <h3 class="text-dark text-center pt-5 pb-3">Par mums </h3>
+    <div class="row d-flex justify-content-between pt-3">
+      <div class="about-item col-lg-4 text-center">
+        <img src="@img/caliper.png" class="icon" alt="caliper">
+        <div class="card  text-center my-3">
+          <div class="card-body">
+            <h5 class="card-title">Design</h5>
+            <p class="card-text">Te kaut kas par sevi jāpastāsta 1.</p>
+            <br>
+            <h6>Mēbeļu izgatavošana pēc individuāla projekta</h6>
+            <br>
+            <p>Izgatavojam bērnu gultiņas, skapjus, virtuves iekārtas, kumodes, kāpnes</p>
+          </div>
+        </div>
+      </div>
+      <div class="about-item col-lg-4 text-center">
+        <img src="@img/lineals-zimulis.png" class="icon" alt="pencil-and-ruler-crossed">
+        <div class="card  text-center my-3">
+          <div class="card-body">
+            <h5 class="card-title">Branding</h5>
+            <p class="card-text">Te kaut kas par sevi jāpastāsta 2.</p>
+            <br>
+            <h6>Mēbeļu un citu koka izstrādājumu restaurācija</h6>
+          </div>
+        </div>
+      </div>
+      <div class="about-item col-lg-4 text-center">
+        <img src="@img/circular-saw.png" class="icon" alt="circularsaw">
+        <div class="card  text-center my-3">
+          <div class="card-body">
+            <h5 class="card-title">Promises</h5>
+            <p class="card-text">Te kaut kas par sevi jāpastāsta 3.</p>
+            <br>
+            <h6>Izmantojam moderno tehnoloģiju sniegtās iespējas</h6>
+            <br>
+            <p>Strādājam gan ar masīvkoku, gan ar dažādiem līmētiem materiāliem.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="second ">
+    <h3 class="text-white">Ieskats mūsu paveiktajā</h3>
+  </section>
+
+  <div class="container my-5 py-5" id="galerija">
+    <h5 class="text-dark text-center py-5">Šeit ir apskatāmi tikai daži no manis veiktajiem darbiem</h5>
+    <div class="spotlight-group " data-fit="cover">
+      <div class="row ">
+        <div class="col-lg p-2">
+          <a class="spotlight" href="@img/4.jpg">
+
+            <div class="image-container ">
+              <img src="@img/4.jpg" class="image ">
+              <div class="middle">
+                <div class="middle-text">Vituves iekārtas</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg p-2">
+          <a class="spotlight" href="@img/5.jpg">
+            <div class="image-container ">
+              <img src="@img/5.jpg" class="image ">
+              <div class="middle">
+                <div class="middle-text">Sapji</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg p-2">
+          <a class="spotlight" href="@img/6.jpg">
+            <div class="image-container ">
+              <img src="@img/6.jpg" class="image">
+              <div class="middle">
+                <div class="middle-text">Kumodes</div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="row  pt-3">
+        <div class="col-lg p-2">
+          <a class="spotlight" href="@img/8.jpg">
+            <div class="image-container ">
+              <img src="@img/8.jpg" class="image">
+              <div class="middle">
+                <div class="middle-text">Kāpnes</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg p-2">
+          <a class="spotlight" href="@img/10.jpg">
+            <div class="image-container ">
+              <img src="@img/10.jpg" class="image">
+              <div class="middle">
+                <div class="middle-text">Resaurēšana</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg p-2">
+          <a class="spotlight" href="@img/11.jpg">
+            <div class="image-container ">
+              <img src="@img/11.jpg" class="image">
+              <div class="middle">
+                <div class="middle-text">Kāpnes</div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="third my-2">
+    <h3 class="text-white">Saziņai</h3>
+  </section>
+
+  <div class="container my-2 py-5" id="contacts">
+    <h5 class="text-dark text-center py-5">Pastāsti mums, ko Tu vēlies uzbūvēt un mēs centīsimies piepildīt tavus sapņus
+    </h5>
+    <form action="" class="row row-cols-1 justify-content-center">
+      <div class="col-md-8 mb-3">
+        <label for="Input1" class="form-label text-dark">Tavs vārds</label>
+        <input type="text" class="form-control" id="Input1" placeholder="Jānis Zariņš" required>
+      </div>
+      <div class=" col-md-8 mb-3">
+        <label for="Input2" class="form-label text-dark">Telefona numurs</label>
+        <input type="text" class="form-control" id="Input2" placeholder="+371 55566677" required>
+      </div>
+      <div class=" col-md-8 mb-3">
+        <label for="Input3" class="form-label text-dark">E-pasta adrese</label>
+        <input type="email" class="form-control" id="Input3" placeholder="name@example.com" required>
+      </div>
+      <div class=" col-md-8 mb-3">
+        <label for="Textarea4" class="form-label text-dark">Apraksti savu vēlmi</label>
+        <textarea class="form-control" id="Textarea4" rows="3" required></textarea>
+      </div>
+      <div class="d-grid d-md-flex justify-content-md-end mb-3">
+        <button type="submit" class="btn btn-primary contactButton px-5 ">Nosūtīt</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="container py-5">
+    <h3 class="text-dark text-center pt-3">Kā mūs atrast</h3>
+
+
+
+  </div>
+  @@include('html/footer.html', { })
