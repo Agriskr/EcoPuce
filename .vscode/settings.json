@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/646fbc0d-8c60-41fa-9d0c-ade6f42e2319/resourceGroups/ecopuce_group/providers/Microsoft.Web/sites/ecopuce",
+    "appService.deploySubpath": "."
+}
